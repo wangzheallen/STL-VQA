@@ -8,6 +8,7 @@ If you find the code useful, please cite the paper:
 # Performance
 
 Below is the step by step effectiveness verification of our method, note to speed up the verification, we use the 7by7 feature instead of 14by14 feature
+
 | Method | V7W | VQA validation |
 | ------ | ------ | ------ |
 | Our Baseline | 65.6 | 58.3 |
@@ -39,9 +40,9 @@ And run "CUDA_VISIBLE_DEVICES=0 python v7w.py"
 # Visualization
 Good Practice: 
 ![goodpractice](https://github.com/wangzheallen/Structed-Triplets-Learning-with-Pos-tag-Guided-Attention-for-Visual-Question-Answering/blob/master/goodpractice.png )
-Good Practice: 
+Good Samples: 
 ![good samples](https://github.com/wangzheallen/Structed-Triplets-Learning-with-Pos-tag-Guided-Attention-for-Visual-Question-Answering/blob/master/goodsample.png )
-Good Practice: 
+Bad Samples: 
 ![bad samples](https://github.com/wangzheallen/Structed-Triplets-Learning-with-Pos-tag-Guided-Attention-for-Visual-Question-Answering/blob/master/badsample.png )
 
 
