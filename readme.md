@@ -38,11 +38,11 @@ And run "CUDA_VISIBLE_DEVICES=0 python v7w.py"
 
 
 # Visualization
-Good Practice: 
+**Good Practice**: 
 ![goodpractice](https://github.com/wangzheallen/Structed-Triplets-Learning-with-Pos-tag-Guided-Attention-for-Visual-Question-Answering/blob/master/goodpractice.png )
-Good Samples: 
+**Good Samples**: 
 ![good samples](https://github.com/wangzheallen/Structed-Triplets-Learning-with-Pos-tag-Guided-Attention-for-Visual-Question-Answering/blob/master/goodsample.png )
-Bad Samples: 
+**Bad Samples**: 
 ![bad samples](https://github.com/wangzheallen/Structed-Triplets-Learning-with-Pos-tag-Guided-Attention-for-Visual-Question-Answering/blob/master/badsample.png )
 
 
