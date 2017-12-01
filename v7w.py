@@ -87,7 +87,7 @@ class Answer_Generator():
 		stride_1 = 1
 		stride_2 = 1
 		stride_3 = 1
-
+		# pos tag guided attention
 		inputs_ques = tf.nn.embedding_lookup(self.embed_ques_W, question)
 		inputs_ans = tf.nn.embedding_lookup(self.embed_ques_W, answer)
 
@@ -96,7 +96,7 @@ class Answer_Generator():
 
 		inputs_ques = inputs_ques * inputs_ques_tag
 		inputs_ans = inputs_ans * inputs_ans_tag
-
+		# convolutional n-gram
 		inputs_ques_1 = tf.nn.conv1d(inputs_ques, self.filters_1, stride_1, padding = "SAME")
 		inputs_ques_2 = tf.nn.conv1d(inputs_ques, self.filters_2, stride_2, padding = "SAME")
 		inputs_ques_3 = tf.nn.conv1d(inputs_ques, self.filters_3, stride_3, padding = "SAME")
@@ -132,7 +132,7 @@ class Answer_Generator():
 
 		ques_pool = tf.reduce_max(ques_aff_softmax, 1)
 		ans_pool = tf.reduce_max(ans_aff_softmax, 1)
-
+		# triplet attention
 		ques_ans_pool = ans_pool + self.att_weight * ques_pool
 		att_pool = ques_ans_pool/tf.reshape(tf.reduce_sum(ques_ans_pool, 1), [-1, 1])
 		att = tf.reshape(att_pool, [-1, 1, 49])
@@ -176,8 +176,8 @@ class Answer_Generator():
 		sample_num = tf.shape(scores_emb)[0] / 4;
 		pos_score_emb = scores_emb[:sample_num,0]
 		neg_score_emb = scores_emb[sample_num:,0]
-		# print scores_emb.shape
-		# print neg_score_emb.shape
+
+		# structed triplet learning
 		diff_score = []
 		for i in xrange(3):
 			sc = tf.gather(neg_score_emb, tf.range(i,sample_num * 3,3))
