@@ -35,7 +35,11 @@ And run "CUDA_VISIBLE_DEVICES=0 python v7w.py"
 
 # Data pre-processing
 
+Download Visual7W: http://web.stanford.edu/~yukez/visual7w/
+And glove: http://nlp.stanford.edu/data/wordvecs/glove.6B.zip  from https://github.com/stanfordnlp/GloVe
 
+python data_preprocessing_7w.py
+python prepro_7w.py
 
 # Visualization
 **Good Practice**: 
