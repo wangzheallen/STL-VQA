@@ -44,6 +44,9 @@ python comparisons_wacv.py
 
 ![goodpractice](https://github.com/wangzheallen/Structed-Triplets-Learning-with-Pos-tag-Guided-Attention-for-Visual-Question-Answering/blob/master/goodpractice.png )
 **Good Samples**: 
+
+python draw_heat_new.py
+
 ![good samples](https://github.com/wangzheallen/Structed-Triplets-Learning-with-Pos-tag-Guided-Attention-for-Visual-Question-Answering/blob/master/goodsample.png )
 **Bad Samples**: 
 ![bad samples](https://github.com/wangzheallen/Structed-Triplets-Learning-with-Pos-tag-Guided-Attention-for-Visual-Question-Answering/blob/master/badsample.png )
