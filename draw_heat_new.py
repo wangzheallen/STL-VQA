@@ -48,7 +48,10 @@ def nltk_tokenize(sent):
 		if token[i].isalpha():
 			token[i] = token[i].lower()
 	return token
+#prefix = '/media/data/home/liangjic/BMVC/rebuttal/'
 prefix = './'
+# prefix = '/home/zwang15/data/'
+# file_list = os.listdir(prefix + 'att')
 file_list = sorted(os.listdir(prefix + 'att'))
 # print file_list 
 
@@ -78,6 +81,7 @@ def Get_graph(ax, aword, gid):
 		qid = int(qid)
 		if qid != gid:
 			continue
+		#graph_path = '/media/data/home/liangjic/BMVC/rebuttal/graph/'+str(gid)
 		graph_path = './graph/'+str(gid)
 		if os.path.exists(graph_path):
 			x = np.load(graph_path)
@@ -122,6 +126,10 @@ def Pic(ax, graph_id, i):
 #graph_id =[[179456, 179457],[335448, 335449],[128800, 128801],[94908, 94909]]
 good_id = [[100,101], [10052, 10053], [297766,297764], [32968, 32969], [202652, 202653]]#, [159696, 159697]] # [297740,297741],
 bad_id  = [[179456, 179457], [335448, 335449],[128800, 128801],[94908, 94909],[383988, 383989]]#, [324, 325]]
+# f, ax = plt.subplots(4,5,sharex=False,sharey=False)	
+# f.set_size_inches(18.5, 10.5)
+# for tmp_ax, gid in zip(ax, graph_id):
+# 	Pic(tmp_ax, gid)
 graph_id = good_id
 
 # plt.tight_layout()
