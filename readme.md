@@ -27,7 +27,9 @@ Our full model performance
 | Ours | 68.2 | 69.6 | 69.7 | 81.9 | 44.3 | 64.7 |
 
 
+# Pre-requisite
 
+tensorflow, torch, pandas, h5py, ipdb, cv2, pdb, spacy, sklearn, matplotlib, PIL, nltk
 
 # Quick Demo
 Download the V7W telling feature shared on https://drive.google.com/open?id=1Hofquxw22j8soyjE0vuZqxcNuvJd-e9V
@@ -37,10 +39,13 @@ And run "CUDA_VISIBLE_DEVICES=0 python v7w.py"
 
 Download Visual7W: http://web.stanford.edu/~yukez/visual7w/
 And glove: http://nlp.stanford.edu/data/wordvecs/glove.6B.zip  from https://github.com/stanfordnlp/GloVe
+Download: https://d2j0dndfm35trm.cloudfront.net/resnet-200.t7
 
 python data_preprocessing_7w.py --data_set telling
 
 python prepro_7w.py
+
+th prepro_img_residule.lua
 
 # Visualization
 **Good Practice**: 
