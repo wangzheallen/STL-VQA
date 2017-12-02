@@ -48,6 +48,11 @@ python prepro_7w.py
 th prepro_img_residule.lua
 
 # Visualization
+**Architecture**: 
+
+![Architecture](https://github.com/wangzheallen/Structed-Triplets-Learning-with-Pos-tag-Guided-Attention-for-Visual-Question-Answering/blob/master/architecture.png )
+
+
 **Good Practice**: 
 
 python comparisons_wacv.py
