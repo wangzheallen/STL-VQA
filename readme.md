@@ -51,21 +51,21 @@ th prepro_img_residule.lua
 # Visualization
 **Architecture**: 
 
-![Architecture](https://github.com/wangzheallen/STL_VQA/blob/master/architecture.png )
+![Architecture](https://github.com/wangzheallen/STL-VQA/blob/master/architecture.png )
 
 
 **Good Practice**: 
 
 python comparisons_wacv.py
 
-![goodpractice](https://github.com/wangzheallen/STL_VQA/blob/master/goodpractice.png )
+![goodpractice](https://github.com/wangzheallen/STL-VQA/blob/master/goodpractice.png )
 **Good Samples**: 
 
 python draw_heat_new.py
 
-![good samples](https://github.com/wangzheallen/STL_VQA/blob/master/goodsample.png )
+![good samples](https://github.com/wangzheallen/STL-VQA/blob/master/goodsample.png )
 **Bad Samples**: 
-![bad samples](https://github.com/wangzheallen/STL_VQA/blob/master/badsample.png )
+![bad samples](https://github.com/wangzheallen/STL-VQA/blob/master/badsample.png )
 
 
 # License
