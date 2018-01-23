@@ -1,8 +1,8 @@
-# Structed-Triplets-Learning-with-Pos-tag-Guided-Attention-for-Visual-Question-Answering
-This is the code for "Structed Triplets Learning with Pos-tag Guided Attention for Visual Question Answering, WACV 2018 (Zhe Wang, Xiaoyi Liu, Liangjian Chen, Limin Wang, Yu Qiao, Xiaohui Xie, Charless Fowlkes)", The good practice in the VQA system such as pos-tag attention, structed triplet learning and triplet attention is very general and can be inserted into almost any visual and language task.
+# Structured Triplet Learning with Pos-tag Guided Attention for Visual Question Answering
+This is the code for "Structured Triplet Learning with Pos-tag Guided Attention for Visual Question Answering, WACV 2018 (Zhe Wang, Xiaoyi Liu, Liangjian Chen, Limin Wang, Yu Qiao, Xiaohui Xie, Charless Fowlkes)", The good practice in the VQA system such as pos-tag attention, structured triplet learning and triplet attention is very general and can be inserted into almost any visual and language task.
 
 If you find the code useful, please cite the paper: 
-##### Structed-Triplets-Learning-with-Pos-tag-Guided-Attention-for-Visual-Question-Answering
+##### Structured Triplet Learning with Pos-tag Guided Attention for Visual Question Answering
 
 
 # Performance
@@ -18,7 +18,7 @@ Below is the step by step effectiveness verification of our method, note to spee
 | +POS-Att +Conv N-Gram +Triplet attention-Q | 66.8 | 60.1 |
 | +POS-Att +Conv N-Gram +Triplet attention-A | 67.0 | 60.1 |
 | +POS-Att +Conv N-Gram +Triplet attention-Q+A | 67.3 | 60.2 |
-| +POS-Att +Conv N-Gram +Triplet attention-Q+A + structed Learning Triplets | 67.5 | 60.3 |
+| +POS-Att +Conv N-Gram +Triplet attention-Q+A + structured Learning Triplets | 67.5 | 60.3 |
 
 Our full model performance
 
@@ -50,21 +50,21 @@ th prepro_img_residule.lua
 # Visualization
 **Architecture**: 
 
-![Architecture](https://github.com/wangzheallen/Structed-Triplets-Learning-with-Pos-tag-Guided-Attention-for-Visual-Question-Answering/blob/master/architecture.png )
+![Architecture](https://github.com/wangzheallen/STL_VQA/blob/master/architecture.png )
 
 
 **Good Practice**: 
 
 python comparisons_wacv.py
 
-![goodpractice](https://github.com/wangzheallen/Structed-Triplets-Learning-with-Pos-tag-Guided-Attention-for-Visual-Question-Answering/blob/master/goodpractice.png )
+![goodpractice](https://github.com/wangzheallen/STL_VQA/blob/master/goodpractice.png )
 **Good Samples**: 
 
 python draw_heat_new.py
 
-![good samples](https://github.com/wangzheallen/Structed-Triplets-Learning-with-Pos-tag-Guided-Attention-for-Visual-Question-Answering/blob/master/goodsample.png )
+![good samples](https://github.com/wangzheallen/STL_VQA/blob/master/goodsample.png )
 **Bad Samples**: 
-![bad samples](https://github.com/wangzheallen/Structed-Triplets-Learning-with-Pos-tag-Guided-Attention-for-Visual-Question-Answering/blob/master/badsample.png )
+![bad samples](https://github.com/wangzheallen/STL_VQA/blob/master/badsample.png )
 
 
 # License
