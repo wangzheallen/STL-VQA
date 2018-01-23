@@ -2,8 +2,9 @@
 This is the code for "Structured Triplet Learning with Pos-tag Guided Attention for Visual Question Answering, WACV 2018 (Zhe Wang, Xiaoyi Liu, Liangjian Chen, Limin Wang, Yu Qiao, Xiaohui Xie, Charless Fowlkes)", The good practice in the VQA system such as pos-tag attention, structured triplet learning and triplet attention is very general and can be inserted into almost any visual and language task.
 
 If you find the code useful, please cite the paper: 
-##### Structured Triplet Learning with Pos-tag Guided Attention for Visual Question Answering
-
+##### Structured Triplet Learning with Pos-tag Guided Attention for Visual Question Answering WACV 2018 (Zhe Wang, Xiaoyi Liu, Liangjian Chen, Limin Wang, Yu Qiao, Xiaohui Xie, Charless Fowlkes)
+If you have feedback for the code, please contact:
+##### buptwangzhe2012 at gmail dot com
 
 # Performance
 
