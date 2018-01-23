@@ -1,5 +1,5 @@
 # Structed-Triplets-Learning-with-Pos-tag-Guided-Attention-for-Visual-Question-Answering
-This is the code for "Structed-Triplets-Learning-with-Pos-tag-Guided-Attention-for-Visual-Question-Answering", The good practice in the VQA system such as pos-tag attention, structed triplet learning and triplet attention is very general and can be inserted into almost any visual and language task.
+This is the code for "Structed Triplets Learning with Pos-tag Guided Attention for Visual Question Answering, WACV 2018 (Zhe Wang, Xiaoyi Liu, Liangjian Chen, Limin Wang, Yu Qiao, Xiaohui Xie, Charless Fowlkes)", The good practice in the VQA system such as pos-tag attention, structed triplet learning and triplet attention is very general and can be inserted into almost any visual and language task.
 
 If you find the code useful, please cite the paper: 
 ##### Structed-Triplets-Learning-with-Pos-tag-Guided-Attention-for-Visual-Question-Answering
